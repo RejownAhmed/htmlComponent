@@ -291,7 +291,8 @@ section{
     left: -20px;
 }
 .product_carousel__product-item__view:hover{
-    background: #e31837; 
+    background: #e31837;
+    color: #fff;
 }
 .product_carousel__product-item__links{
     padding: 0;
@@ -376,9 +377,10 @@ section{
     color: #a3a3a3; 
 }
 .product_carousel__product-item__content__title {
-	font-size: 15px;
-	font-weight: 400;
-	margin: 0 0 8px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 8px;
+    padding: 0 30px;
 }
 .product_carousel__product-item__content__title a{
     color: #333;
