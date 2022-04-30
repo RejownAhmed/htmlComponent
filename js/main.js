@@ -1,4 +1,5 @@
-$('.product_carousel').slick({
+$(document).ready(function () {
+  $('.product_carousel').slick({
     dots: true,
     infinite: true,
     slidesToShow: 6,
@@ -34,3 +35,4 @@ $('.product_carousel').slick({
       // instead of a settings object
     ]
   });
+});
