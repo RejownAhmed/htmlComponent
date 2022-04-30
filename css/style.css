@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap&family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 /*==> default styling starts */
 html,  *, *:before, *:after {
     box-sizing: border-box;
@@ -93,6 +93,7 @@ section{
     display: -ms-flexbox;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 .hero-section__content-subtitle h3 {
     font-size: 12px;
@@ -109,7 +110,7 @@ section{
 }
 .hero-section__content-title{
     font-size: 50px;
-    font-family: 'Pacifico', cursive;
+    font-family: 'Fredoka One', cursive;    
     margin-bottom: 25px;
     color: #2a398f;
 }
@@ -126,7 +127,7 @@ section{
     line-height: 50px;
     height: 50px;
     padding: 0 40px;
-    border-radius: 25px;
+    border-radius: 5px;
     letter-spacing: 1.5px;
     display: inline-block;
     font-size: 16px;
@@ -153,7 +154,7 @@ section{
         line-height: 45px;
         height: 45px;
         padding: 0 35px;
-        font-size: 15px;
+        font-size: 14px;
     }   
 }
 @media only screen and (max-width: 992px) {
@@ -161,19 +162,18 @@ section{
         grid-template-columns: repeat(1, 1fr);
     }
     .hero-section__content-title{
-        font-size: 50px;
+        font-size: 35px;
         margin-bottom: 25px;
     }
     .hero-section__content-text{
-        font-size: 20px;
+        font-size: 15px;
     }
     .hero-section__content-button {
         margin-top: 60px;
-        line-height: 50px;
-        height: 50px;
-        padding: 0 45px;
-        font-size: 18px;
-    }   
+        line-height: 35px;
+        height: 35px;
+        padding: 0 35px;
+    }
 }
 
 /* Categories Design Starts  */
