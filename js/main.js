@@ -5,6 +5,8 @@ $(document).ready(function () {
     slidesToShow: 6,
     slidesToScroll: 1,
     lazyLoad: 'onprogress',
+    // autoplay: true,
+    // autoplaySpeed: 2000,
     responsive: [
       {
         breakpoint: 1110,
