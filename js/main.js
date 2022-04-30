@@ -9,9 +9,15 @@ $(document).ready(function () {
     // autoplaySpeed: 2000,
     responsive: [
       {
-        breakpoint: 1110,
+        breakpoint: 1200,
         settings: {
           slidesToShow: 5,
+        }
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 4,
         }
       },
       {
@@ -21,15 +27,15 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 710,
+        breakpoint: 650,
         settings: {
           slidesToShow: 2,
         }
       },
       {
-        breakpoint: 468,
+        breakpoint: 420,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 1,
         }
       }
       // You can unslick at a given breakpoint now by adding:
