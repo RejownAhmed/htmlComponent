@@ -360,11 +360,11 @@ section{
     transform: rotate(-45deg);
     z-index: 99;
 }
-.product_carousel__product-item__product-label-discount{
+.product_carousel__product-item__product-label.discount{
     background: #80b435;
     right: auto;
 }
-.product_carousel__product-item__product-label-hot{
+.product_carousel__product-item__product-label.hot{
     background-color: #e31837;
 }
 .product_carousel__product-item__view {
