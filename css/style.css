@@ -54,6 +54,11 @@ section{
     align-items: center;
     padding: 50px;
 }
+@media only screen and (max-width: 480px) {
+    .container{
+        padding: 30px;
+    }
+}
 .section-title{
     font-size: 25px;
     font-weight: 700;
