@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+/*==> default styling starts */
+html,  *, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    position: relative;
+    flex-wrap: wrap;
+    /* scroll-behavior: smooth; */
+  }
+html{
+    font-size: 62.5%;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+body{
+    font-family: 'Montserrat',Roboto,Arial,Helvetica,Source Sans Pro,sans-serif;
+    color: rgb(89, 89, 89);
+    background: #eee;
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+a,
+a:hover,
+a:focus,
+a:active {
+    display: block;
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+ul, ul li, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.section-title{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+}
+.display-flex{
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-6{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.w-100{
+    width: 100% !important;
+}
+
+.prodcut-item{ 
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.prodcut-item .product-image {
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	overflow: hidden;
+	border-radius: 0px;
+}
+.prodcut-item .product-image a.image{display: block; }
+.prodcut-item .product-image img{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.prodcut-item .product-image .image:before {
+    content: '';
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0 0;
+    background: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+    z-index: 1;
+    transition: all .3s ease;
+
+}
+.prodcut-item:hover .product-image .image:before {
+    left: 0;
+}
+.prodcut-item .image .product-cat {
+    display: inline-block;
+    padding: 5px;
+    background-color: #252943;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    z-index: 99;
+}
+
+.prodcut-item .product-label {
+    color: #fff;
+    background: #ff6f00;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-transform: uppercase;
+    left: 10px;
+    z-index: 99;
+    color: #fff;
+    text-transform: uppercase;
+    width: 112px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    left: -38px;
+    top: 2px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    z-index: 99;
+}
+.prodcut-item .product-discount-label{
+    background: #80b435;
+    right: auto;
+}
+.prodcut-item .product-hot-label{
+    background-color: #e31837;
+}
+.prodcut-item .product-view {
+	color: #fff;
+	background: #252943;
+	font-size: 16px;
+	text-align: right;
+	line-height: 34px;
+	width: 50px;
+	height: 50px;
+	padding: 0 10px 0 0;
+	border-radius: 50px;
+	opacity: 0;
+	transform: scale(0);
+	position: absolute;
+	bottom: -40px;
+	left: -40px;
+	transition: all .3s ease;
+    z-index: 99;
+}
+.prodcut-item:hover .product-view{ 
+    opacity: 1;
+    transform: scale(1);
+    bottom: -20px;
+    left: -20px;
+}
+.prodcut-item .product-view:hover{
+    background: #e31837; 
+}
+.prodcut-item .product-links{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    transform: translateY(50%);
+    position: absolute;
+    bottom: 50%;
+    right: 10px;
+    z-index: 1;
+}
+.prodcut-item .product-links li{
+    margin: 5px 0;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all .3s ease;
+}
+.prodcut-item .product-links li:nth-child(2){ transition-delay: .1s; }
+.prodcut-item .product-links li:nth-child(3){ transition-delay: .2s; }
+.prodcut-item:hover .product-links li{
+    opacity: 1;
+    transform: translateX(0); 
+}
+.prodcut-item .product-links li a {
+	color: #fff;
+	background: #252943;
+	font-size: 15px;
+	text-align: center;
+	line-height: 34px;
+	width: 34px;
+	height: 34px;
+	display: block;
+	transition: all .3s ease;
+	border-radius: 3px;
+    position: relative;
+}
+.prodcut-item .product-links li a:hover{
+    color: #fff;
+    background:#e31837; 
+    border-color: #e31837;
+}
+.prodcut-item .product-links li a:hover span{
+    display: inline-block;
+}
+.prodcut-item .product-links li a span {
+	position: absolute;
+	right: 100%;
+	top: 0;
+	display: none;
+	background-color: #80b435;
+	color: #fff;
+	padding: 0px 9px;
+	font-size: 10px;
+	text-transform: uppercase;
+	/* width: 90px; */
+	font-weight: 600;
+	text-align: right;
+	white-space: nowrap;
+}
+.prodcut-item .product-content {
+	background: #fff;
+	padding: 15px 0 0;
+	text-align: center;
+	width: 100%;
+}
+.prodcut-item .rating{
+    color: #f7bc3d;
+    font-size: 11px;
+    padding: 0;
+    margin: 0 0 10px;
+    list-style: none;
+}
+.prodcut-item .rating li{ 
+    display: inline-block; 
+}
+.prodcut-item .rating .disable{ 
+    color: #a3a3a3; 
+}
+.prodcut-item .title {
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0 0 8px;
+}
+.prodcut-item .title a{
+    color: #333;
+    transition: all 0.3s ease 0s;
+}
+.prodcut-item .title a:hover{ 
+    color: #ff6f00; 
+}
+.prodcut-item .price{
+    color: #333;
+    font-size: 14px;
+    min-height: 40px;
+}
+.prodcut-item .price span{
+    color: #999;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+    margin-right: 5px;
+}
+.prodcut-item .personalize{
+    display: grid;
+    width: 100%;
+    place-items: center;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    -ms-transition: all .3s;
+    transition: all .3s;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 99;
+    bottom: -100%;
+    left: 0;
+}
+.prodcut-item .personalize a{
+    background-color: #252943;
+    border-radius: 999px;
+    border: none;
+    font-weight: 400;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.prodcut-item:hover .personalize {
+	bottom: 8%;
+}
+@media screen and (max-width: 990px){
+    .prodcut-item{ margin-bottom: 30px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
