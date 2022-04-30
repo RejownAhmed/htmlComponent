@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap&family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /*==> default styling starts */
 html,  *, *:before, *:after {
@@ -31,7 +32,6 @@ a,
 a:hover,
 a:focus,
 a:active {
-    display: block;
     text-decoration: none;
     outline: none;
     color: inherit;
@@ -54,37 +54,129 @@ section{
     align-items: center;
     padding: 50px;
 }
-
-.w-100{
-    width: 100% !important;
-}
 .section-title{
     font-size: 25px;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
+
+/* Hero Section Design Starts  */
 .hero-section{
-    display: -ms-flexbox;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    margin-top: 100px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    grid-column-gap: 100px;
     width: 100%;
 }
 .hero-section__image{
-    width: 500px;
+    max-width: 680px;
+    display: block;
 }
-.hero-section__image img{
+.hero-section__image:before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    left: -40px;
     width: 100%;
-    height: auto;
-}
-.hero-section__content__small-heading{
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+    height: 90%;
+    background-color: #f3d1d1;
 }
 
+.hero-section__image img{
+    width: 100%;
+    animation: float 3s ease-in-out infinite;
+    -webkit-animation: float 3s ease-in-out infinite;
+}
+.hero-section__content-subtitle{
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+.hero-section__content-subtitle h3 {
+    font-size: 12px;
+    padding: 5px 10px;
+    background: #80b435;
+    color: #fff;
+    font-weight: 500;
+}
+.hero-section__content-subtitle .date{
+    font-family: 'Great Vibes', cursive;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: #00bcd4;
+}
+.hero-section__content-title{
+    font-size: 50px;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 25px;
+    color: #2a398f;
+}
+.hero-section__content-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-section__content-button {
+    background: #252943;
+    border: none;
+    color: #fff;
+    margin-top: 100px;
+    line-height: 50px;
+    height: 50px;
+    padding: 0 40px;
+    border-radius: 25px;
+    letter-spacing: 1.5px;
+    display: inline-block;
+    font-size: 16px;
+    transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+    /* animation: float 3s ease-in-out infinite;
+    -webkit-animation: float 3s ease-in-out infinite; */
+}
+.hero-section__content-button:hover {
+    background: #e31837;
+    color: #fff;
+}
+@media only screen and (max-width: 1100px) {
+    .hero-section__content-title{
+        font-size: 45px;
+        margin-bottom: 15px;
+    }
+    .hero-section__content-text{
+        font-size: 16px;
+    }
+    .hero-section__content-button {
+        margin-top: 60px;
+        line-height: 45px;
+        height: 45px;
+        padding: 0 35px;
+        font-size: 15px;
+    }   
+}
+@media only screen and (max-width: 992px) {
+    .hero-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .hero-section__content-title{
+        font-size: 50px;
+        margin-bottom: 25px;
+    }
+    .hero-section__content-text{
+        font-size: 20px;
+    }
+    .hero-section__content-button {
+        margin-top: 60px;
+        line-height: 50px;
+        height: 50px;
+        padding: 0 45px;
+        font-size: 18px;
+    }   
+}
+
+/* Categories Design Starts  */
 .main-categories-section__categories{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -196,8 +288,6 @@ section{
 .categories__item-button:hover::before{
     width: 100%;
 }
-
-
 
 /*= Products Carousel Section  =*/
 .product_carousel__product-item{ 
@@ -442,7 +532,35 @@ section{
 	bottom: 8%;
 }
 
-
+@-webkit-keyframes float {
+    0% {
+      /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3); */
+      transform: translatey(0px);
+    }
+    50% {
+      /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.1); */
+      transform: translatey(-10px);
+    }
+    100% {
+      /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3); */
+      transform: translatey(0px);
+    }
+  }
+  
+  @keyframes float {
+    0% {
+      /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3); */
+      transform: translatey(0px);
+    }
+    50% {
+      /* box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.1); */
+      transform: translatey(-10px);
+    }
+    100% {
+      /* box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.3); */
+      transform: translatey(0px);
+    }
+  }
 
 
 
