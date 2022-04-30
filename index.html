@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML Components</title>
+    <product_carousel__product-item__content__title>HTML Components</product_carousel__product-item__content__title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./vendor/fontawesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="./vendor/slick/slick-theme.css">
@@ -16,263 +16,347 @@
     
     <div class="container">
         
+
+        <section>
+            <div class="section-title">Main Categories</div>
+            <div class="categories">
+                <div class="categories__item">
+                    <a href="#">
+                    <img alt="promotion banner" src="./images/4.jpg">
+                        <h2 class="categories__item-title">Wedding Gifts</h2>
+                        <p class="categories__item-subtitle">Attractive Gifts</p>
+                        <div class="categories__item-button">VIEW MORE</div>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                    <img alt="promotion banner" src="./images/6.jpg">
+                        <h2 class="categories__item-title">Gifts For Kids</h2>
+                        <p class="categories__item-subtitle">Attractive Gifts</p>
+                        <div class="categories__item-button">VIEW MORE</div>
+                    </a>
+                </div>
+                <div class="categories__item">
+                    <a href="#">
+                    <img alt="promotion banner" src="./images/5.jpg">
+                        <h2 class="categories__item-title">Flowers & Bouque</h2>
+                        <p class="categories__item-subtitle">Attractive Gifts</p>
+                        <div class="categories__item-button">VIEW MORE</div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <section class="popular-products w-100">
             <div class="section-title">Popular Products</div>
             <div class="products product_carousel">
                 <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
                                 <img src="images/1.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <div class="product-label product-discount-label">-75%</div>
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
                             </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
                             </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
                         </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Kids zoo party box</a></h3>
-                            <ul class="rating">
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star disable"></li>
                                 <li class="disable">(5 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99 <span>$125</span></div>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
                         </div>
-                    
                     </div>
                 </div>
                 <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
-                                <img src="images/2.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <!-- <div class="product-label product-discount-label">-75%</div> -->
-                            </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Beautiful Bouque</a></h3>
-                            <ul class="rating">
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star disable"></li>
-                                <li class="disable">(47 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99</div>
-                        </div>
-                    
-                    </div>
-                </div>
-                <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
                                 <img src="images/1.jpg">
-                                <div class="product-label product-hot-label">HOT</div>
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
                             </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
                             </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
                         </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Kids zoo party box</a></h3>
-                            <ul class="rating">
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star disable"></li>
-                                <li class="disable">(1 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99 <span>$125</span></div>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
                         </div>
-                    
                     </div>
                 </div>
                 <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
-                                <img src="images/3.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <div class="product-label product-discount-label">-15%</div>
-                            </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Wedding Gift</a></h3>
-                            <ul class="rating">
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star disable"></li>
-                                <li class="fa fa-star disable"></li>
-                                <li class="disable">(100 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$85.99 <span>$105</span></div>
-                        </div>
-                    
-                    </div>
-                </div>
-                <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
                                 <img src="images/1.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <!-- <div class="product-label product-discount-label">-75%</div> -->
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
                             </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
                             </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
                         </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Kids zoo party box</a></h3>
-                            <ul class="rating">
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star"></li>
                                 <li class="fa fa-star disable"></li>
-                                <li class="disable">(1 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99 <span></span></div>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
                         </div>
-                    
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="product_carousel__product-item">
+                        <div class="product_carousel__product-item__product-image">
+                            <a href="#" class=product_carousel__product-item__product-image__image>
+                                <img src="images/1.jpg">
+                                <!-- <span class="product_carousel__product-item__view-rel">New Item</span> -->
+                                <div class="product_carousel__product-item__product-label product_carousel__product-item__product-label-discount">-75%</div>
+                            </a>
+                            <ul class="product_carousel__product-item__links">
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
+                                <li><a class="link" href="#" product_carousel__product-item__content__title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
+                            </ul>
+                            <a href="#" class="product_carousel__product-item__view" product_carousel__product-item__content__title="view more of this category"><i class="fa fa-search"></i></a>
+                        </div>
+                        <div class="product_carousel__product-item__content">
+                            <h3 class="product_carousel__product-item__content__title"><a href="#">Kids zoo party box</a></h3>
+                            <!-- <ul class="product_carousel__product-item__content__ratin">
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star"></li>
+                                <li class="fa fa-star disable"></li>
+                                <li class="disable">(5 reviews)</li>
+                            </ul> -->
+                            <div class="product_carousel__product-item__content__personalize"><a href="#">Personalize</a></div>
+                            <div class="product_carousel__product-item__content__price"><span>£</span>65.99 <span><span>£</span>125</span></div>
+                        </div>
                     </div>
                 </div>
                 
-                <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
-                                <img src="images/1.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <!-- <div class="product-label product-discount-label">-75%</div> -->
-                            </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Kids zoo party box</a></h3>
-                            <ul class="rating">
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star disable"></li>
-                                <li class="disable">(1 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99 <span></span></div>
-                        </div>
-                    
-                    </div>
-                </div>
-                <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
-                                <img src="images/1.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <div class="product-label product-discount-label">-75%</div>
-                            </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Kids zoo party box</a></h3>
-                            <ul class="rating">
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star disable"></li>
-                                <li class="disable">(1 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99 <span>$125</span></div>
-                        </div>
-                    
-                    </div>
-                </div>
-                <div>
-                    <div class="prodcut-item">
-                        <div class="product-image">
-                            <a href="#" class="image">
-                                <img src="images/1.jpg">
-                                <!-- <span class="product-cat">New Item</span> -->
-                                <div class="product-label product-discount-label">-75%</div>
-                            </a>
-                            <ul class="product-links">
-                                <li><a class="link" href="#" title="Add to favourites"><span>Favourite</span><i class="fa fa-heart"></i></a></li>
-                                <li><a class="link" href="#" title="Compare with Other Products"><span>Compare</span><i class="fa fa-random"></i></a></li>
-                                <li><a class="link" href="#" title="Pesonalize Item"><span>Quick View</span><i class="fa fa-eye"></i></a></li>
-                            </ul>
-                            <a href="#" class="product-view" title="view more of this category"><i class="fa fa-search"></i></a>
-                        </div>
-                        <div class="product-content">
-                            <h3 class="title"><a href="#">Kids zoo party box</a></h3>
-                            <ul class="rating">
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star"></li>
-                                <li class="fa fa-star disable"></li>
-                                <li class="disable">(1 reviews)</li>
-                            </ul>
-                            <div class="personalize"><a href="#">Personalize</a></div>
-                            <div class="price">$65.99 <span>$125</span></div>
-                        </div>
-                    
-                    </div>
-                </div>
 
             </div>
         </section>
     </div>
 
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="./vendor/slick/slick.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
