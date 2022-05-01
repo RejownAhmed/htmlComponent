@@ -204,7 +204,7 @@ section{
 .categories__item a{
     width: 100%;
     position: relative;
-    padding: 30px;
+    padding: 10px;
     height: 100%;
     display: flex;
     -ms-flex-direction: column;
