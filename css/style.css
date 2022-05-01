@@ -22,7 +22,7 @@ body, html {
 body{
     font-family: 'Montserrat',Roboto,Arial,Helvetica,Source Sans Pro,sans-serif;
     color: rgb(89, 89, 89);
-    background: #eee;
+    background: #fff;
 }
 p, h1, h2, h3, h4, h5, h6{
     margin: 0;
