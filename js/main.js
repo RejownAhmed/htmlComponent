@@ -33,7 +33,7 @@ $(document).ready(function () {
         }
       },
       {
-        breakpoint: 420,
+        breakpoint: 380,
         settings: {
           slidesToShow: 1,
         }
