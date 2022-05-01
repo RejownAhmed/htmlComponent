@@ -239,14 +239,16 @@ section{
 .categories__item:last-child .categories__item-button{
     margin-left: auto;
 }
-.categories__item img{
-    width: 100%;
-    position: absolute;
-    z-index: 0;
-    height: 100%;
-    transition: all 0.3s linear;
-    -moz-transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
+.categories__item img {
+	width: 100%;
+	position: absolute;
+	z-index: 0;
+	height: 100%;
+	transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	top: 0;
+	left: 0;
 }
 .categories__item:hover img{
     transform: scale(1.1);
