@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap&family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600;800&display=swap');
 /*==> default styling starts */
 html,  *, *:before, *:after {
     box-sizing: border-box;
@@ -91,8 +92,8 @@ section{
 
 .hero-section__image img{
     width: 100%;
-    animation: float 3s ease-in-out infinite;
-    -webkit-animation: float 3s ease-in-out infinite;
+    /* animation: float 3s ease-in-out infinite; */
+    /* -webkit-animation: float 3s ease-in-out infinite; */
 }
 .hero-section__content-subtitle{
     display: -ms-flexbox;
@@ -115,7 +116,7 @@ section{
 }
 .hero-section__content-title{
     font-size: 50px;
-    font-family: 'Fredoka One', cursive;    
+    font-family: 'Libre Franklin', sans-serif;    
     margin-bottom: 25px;
     color: #2a398f;
 }
