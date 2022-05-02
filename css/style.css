@@ -109,10 +109,10 @@ section{
     font-weight: 500;
 }
 .hero-section__content-subtitle .date{
-    font-family: 'Great Vibes', cursive;
-    font-size: 20px;
+    font-size: 13px;
     text-transform: capitalize;
-    color: #00bcd4;
+    color: #80b435;
+    font-weight: 600;
 }
 .hero-section__content-title{
     font-size: 50px;
